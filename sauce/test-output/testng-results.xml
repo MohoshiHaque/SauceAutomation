@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T15:40:59 BDT" name="Default suite" finished-at="2023-08-03T15:41:07 BDT" duration-ms="8664">
+  <suite started-at="2023-08-08T12:33:21 BDT" name="Default suite" finished-at="2023-08-08T12:33:25 BDT" duration-ms="4705">
     <groups>
     </groups>
-    <test started-at="2023-08-03T15:40:59 BDT" name="Default test" finished-at="2023-08-03T15:41:07 BDT" duration-ms="8664">
+    <test started-at="2023-08-08T12:33:21 BDT" name="Default test" finished-at="2023-08-08T12:33:25 BDT" duration-ms="4705">
       <class name="sauce.Testing">
-        <test-method is-config="true" signature="Init()[pri:0, instance:sauce.Testing@6c6cb480]" started-at="2023-08-03T15:40:59 BDT" name="Init" finished-at="2023-08-03T15:41:07 BDT" duration-ms="8615" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:sauce.Testing@1165b38]" started-at="2023-08-08T12:33:21 BDT" name="Init" finished-at="2023-08-08T12:33:25 BDT" duration-ms="4174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="TestTitle()[pri:1, instance:sauce.Testing@6c6cb480]" started-at="2023-08-03T15:41:07 BDT" name="TestTitle" finished-at="2023-08-03T15:41:07 BDT" duration-ms="12" status="PASS">
+        <test-method signature="TestTitle()[pri:1, instance:sauce.Testing@1165b38]" started-at="2023-08-08T12:33:25 BDT" name="TestTitle" finished-at="2023-08-08T12:33:25 BDT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTitle -->
-        <test-method signature="Testurl()[pri:2, instance:sauce.Testing@6c6cb480]" started-at="2023-08-03T15:41:07 BDT" name="Testurl" finished-at="2023-08-03T15:41:07 BDT" duration-ms="6" status="PASS">
+        <test-method signature="Testurl()[pri:2, instance:sauce.Testing@1165b38]" started-at="2023-08-08T12:33:25 BDT" name="Testurl" finished-at="2023-08-08T12:33:25 BDT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testurl -->
+        <test-method signature="InputInvalidUserName()[pri:3, instance:sauce.Testing@1165b38]" started-at="2023-08-08T12:33:25 BDT" name="InputInvalidUserName" finished-at="2023-08-08T12:33:25 BDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputInvalidUserName -->
+        <test-method signature="InputInvalidPassword()[pri:4, instance:sauce.Testing@1165b38]" started-at="2023-08-08T12:33:25 BDT" name="InputInvalidPassword" finished-at="2023-08-08T12:33:25 BDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputInvalidPassword -->
       </class> <!-- sauce.Testing -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

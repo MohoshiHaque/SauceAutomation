@@ -5,8 +5,8 @@
     <classes>
       <class name="sauce.Testing">
         <methods>
+          <include name="InvalidName"/>
           <include name="Init"/>
-          <include name="TestTitle"/>
         </methods>
       </class> <!-- sauce.Testing -->
     </classes>
